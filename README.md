@@ -21,7 +21,7 @@ This project is a simple news website built using HTML, CSS, and JavaScript. It 
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/news-website.git
+  https://github.com/anshpandey14/News-Website.git
    ```
 2. Navigate to the project folder:
    ```sh

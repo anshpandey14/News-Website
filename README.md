@@ -21,7 +21,7 @@ This project is a simple news website built using HTML, CSS, and JavaScript. It 
 
 1. Clone the repository:
    ```sh
-  https://github.com/anshpandey14/News-Website.git
+   git clone https://github.com/anshpandey14/news-website.git
    ```
 2. Navigate to the project folder:
    ```sh
@@ -64,5 +64,6 @@ news-website/
 - Implement dark mode.
 - Improve UI/UX with animations.
 - Allow users to save favorite articles.
+
 
 

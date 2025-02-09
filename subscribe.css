@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    display: flex;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+}
+
+a{
+    color: inherit; 
+    text-decoration: none;
+} 
+
+#nav-1{
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 100px;
+    padding-left: 50px;
+}
+
+#nav-links{
+    display: flex;
+    padding-right: 50px;
+    gap: 50px;
+    color: #747d88;
+    font-size: 20px;
+}
+
+#name{
+    padding-left: 150px;
+    color: #0b6ce2;
+    font-size: 40px;
+}
+
+.subpage{
+    background: linear-gradient(rgb(20, 69, 104),rgb(255, 255, 255));
+    margin: 50px 100px;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.subpageheading{
+    color: #dfecf3;
+    font-size: 40px;
+}
+
+.subpagepara{
+    font-size: 30px;
+    color: brown;
+    padding: 10px;
+}
+
+.subcategory{
+    display: flex;
+    background-color: #eaebe3;
+    margin: 20px;
+    /* padding: 20px; */
+}
+
+.divider{
+    background-color: #b6bcc2;
+    padding:1px;
+    margin:30px 20px;
+}
+
+.suboption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.benefits{
+    margin: 40px 20px;
+}
+
+.suboptionhead{
+    margin:0 10px;
+}
+
+.suboptionheadp{
+    font-size: 30px;
+    text-align: center;
+    color: #864949;
+    padding: 5px;
+}
+
+.price{
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(52, 61, 61);
+}
+
+.tick{
+    color: rgb(13, 142, 13);
+    font-weight: bolder;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.cross{
+    color: rgb(239, 7, 7);
+    font-weight: bolder;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.texts{
+    font-size: 20px;
+    color: #747d88;
+    padding-top: 10px;
+}
+
+.subbutton{
+    margin:30px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: #1e90ce;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.subbutton:hover {
+    background-color: #06578d;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsX</title>
+    <link rel="icon" type="image/jpg" href="./images/logo2.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <div id="nav-1">
+        <div id="logo"><a href="#" onclick="reload()"><img height="100%" width="90px" src="./images/logo2.png"></a></div>
+        <h1 id="name">News Portal</h1>
+        <div id="nav-links">
+            <div><a href="contact.html">☎ CONTACT US</a></div>
+            <div><a href="about.html">👤 ABOUT US</a></div>
+            <button id="login" class="login">Login</button>
+        </div>
+    </div>
+
+
+    <!-- login content -->
+    <div id="login-popup" class="popup-overlay">
+        <div class="popup-container">
+            <span id="close-login" class="close-btn"></span>
+            <div class="logo-container">
+                <img src="./images/logo2.png" alt="NewsX Logo" class="logo">
+            </div>
+            <h2 class="loginh2">Login to NewsX</h2>
+            <form>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="login-btn">Login</button>
+                <p class="signup-link">Don't have an account? <a href="#">Sign up</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- quick nav -->
+
+    <div id="nav-2">
+
+        <div class="sections" >
+            <img id="sports" onclick="navClick('sports')" class="img-nav" src="./images/features-sports-1.jpg">
+            <p class="head-nav">SPORTS</p>
+        </div>
+        
+        <div class="sections" id="technology" onclick="navClick('technology')">
+            <img class="img-nav" src="./images/features-technology.jpg">
+            <p class="head-nav">TECHNOLOGY</p>  
+        </div>
+        
+        <div class="sections" id="fashion" onclick="navClick('fashion')">
+            <img class="img-nav" src="./images/features-fashion.jpg">
+            <p class="head-nav">FASHION</p>         
+        </div>
+        
+        <div class="sections" id="lifestyle" onclick="navClick('lifestyle')">
+            <img class="img-nav" src="./images/features-life-style.jpg">
+            <p class="head-nav">LIFE STYLE</p>               
+        </div>        
+    </div>
+
+
+
+    <main>
+        <div class="cards-container" id="cards-container"></div>
+    </main>
+
+    <!-- template card-->
+
+    <template id="template-card">
+        <div class="card">
+            <div>
+                <img src="" alt="news-image" class="news-img" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 class="news-title" id="news-title"></h3>
+                <h6 class="news-source" id="news-source"></h6>
+                <p class="news-desc" id="news-desc"></p>
+            </div>
+        </div>
+    </template>
+
+    
+    <script src="login.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
